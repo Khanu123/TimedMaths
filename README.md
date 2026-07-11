@@ -17,7 +17,7 @@ Timed Maths Challenge is a small command-line project focused on random problem 
 ## How to Run
 
 ```bash
-python main.py
+python "timed math quiz.py"
 ```
 
 If the script has a different filename, run that Python file directly.
@@ -49,6 +49,18 @@ This is an early learning project. The next iteration would focus on safer expre
 - Add difficulty levels for number ranges and operators.
 - Save best scores locally in a simple JSON file.
 - Add tests for generated problems and answer checking.
+
+## Current Code Improvements
+
+- Replaced `eval()` with explicit operator functions.
+- Added reusable quiz functions.
+- Added a unit test for generated problem output.
+
+## Testing
+
+```bash
+python -m unittest discover -v
+```
 
 ## Interview Talking Points
 
